@@ -20,54 +20,54 @@ const navLinks = [
 const cocktailLists = [
  {
 	name: "Chapel Hill Shiraz",
-	country: "AU",
+	country: "DZ",
 	detail: "Battle",
-	price: "$10",
+	price: "DZD600",
  },
  {
 	name: "Caten Malbee",
-	country: "AU",
+	country: "DZ",
 	detail: "Battle",
-	price: "$49",
+	price: "DZD700",
  },
  {
 	name: "Rhino Pale Ale",
-	country: "CA",
+	country: "DZ",
 	detail: "750 ml",
-	price: "$20",
+	price: "DZD600",
  },
  {
 	name: "Irish Guinness",
-	country: "IE",
+	country: "DZ",
 	detail: "600 ml",
-	price: "$29",
+	price: "DZD550",
  },
 ];
 
 const mockTailLists = [
  {
 	name: "Tropical Bloom",
-	country: "US",
+	country: "DZ",
 	detail: "Battle",
-	price: "$10",
+	price: "DZD250",
  },
  {
 	name: "Passionfruit Mint",
-	country: "US",
+	country: "DZ",
 	detail: "Battle",
-	price: "$49",
+	price: "DZD450",
  },
  {
 	name: "Citrus Glow",
-	country: "CA",
+	country: "DZ",
 	detail: "750 ml",
-	price: "$20",
+	price: "DZD300",
  },
  {
 	name: "Lavender Fizz",
-	country: "IE",
+	country: "DZ",
 	detail: "600 ml",
-	price: "$29",
+	price: "DZD500",
  },
 ];
 
@@ -102,10 +102,10 @@ const goodLists = [
 
 const storeInfo = {
  heading: "Where to Find Us",
- address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
+ address: "Setif, Algeria | 123 Cocktail St.",
  contact: {
-	phone: "(555) 987-6543",
-	email: "hello@jsmcocktail.com",
+	phone: "(213) 687-654345",
+	email: "hello@cocktail.com",
  },
 };
 
@@ -137,7 +137,7 @@ const socials = [
 const allCocktails = [
  {
 	id: 1,
-	name: "Classic Mojito",
+	name: "Classic Mokhito",
 	image: "/images/drink1.png",
 	title: "Simple Ingredients, Bold Flavor",
 	description:
@@ -145,7 +145,7 @@ const allCocktails = [
  },
  {
 	id: 2,
-	name: "Raspberry Mojito",
+	name: "Raspberry Mokhito",
 	image: "/images/drink2.png",
 	title: "A Zesty Classic That Never Fails",
 	description:
@@ -161,7 +161,7 @@ const allCocktails = [
  },
  {
 	id: 4,
-	name: "Curacao Mojito",
+	name: "Curacao Mokhito",
 	image: "/images/drink4.png",
 	title: "Crafted With Care, Poured With Love",
 	description:
