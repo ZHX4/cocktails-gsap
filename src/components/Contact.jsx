@@ -1,9 +1,12 @@
-import { openingHours, socials } from '../../constants/index.js'
+import constants from '../../constants/index.js'
 import { useGSAP } from '@gsap/react'
 import { SplitText } from 'gsap/all';
 import gsap from 'gsap';
 
 const Contact = () => {
+
+    const { openingHours, socials } = constants;
+
     useGSAP(() => {
         const titleSplit = SplitText.create('#contact h2', { type: 'words' });
 
@@ -28,6 +31,7 @@ const Contact = () => {
                 y: '-50', duration: 1, ease: 'power1.inOut'
             }, '<')
     })
+
 
     return (
         <footer id="contact">
